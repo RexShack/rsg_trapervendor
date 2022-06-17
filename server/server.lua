@@ -339,7 +339,7 @@ AddEventHandler("rsg_trappervendor:server:sell", function()
         end
 		if hasitems == true then
 			Player.Functions.AddMoney("cash", price, "sold-items")
-			TriggerClientEvent('rsg_notify:client:notifiy', src, 'you have sold all your items for $'..price, 5000)
+			TriggerClientEvent('QBCore:Notify', src, 9, 'you have sold all your items for $'..price, 5000, 0, 'hud_textures', 'check', 'COLOR_WHITE')
 			hasitems = false
 		end
 	end
