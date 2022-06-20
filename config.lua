@@ -7,5 +7,5 @@ Config.TrapperNpc = {
 	[3] = { ["Model"] = "U_M_M_SDTRAPPER_01", ["Pos"] = vector3(-1006.938, -549.3896, 99.393592 -1), ["Heading"] = 291.42114 }, -- Trapper Vendor RiggsStation
 	[4] = { ["Model"] = "U_M_M_SDTRAPPER_01", ["Pos"] = vector3(-2843.525, 142.12048, 184.59883 -1), ["Heading"] = 255.41798 }, -- Trapper Vendor WestElizabeth
 	[5] = { ["Model"] = "U_M_M_SDTRAPPER_01", ["Pos"] = vector3(-1745.965, -389.0415, 156.59684 -1), ["Heading"] = 115.06294 }, -- Trapper Vendor Strawberry
-
+	[5] = { ["Model"] = "U_M_M_SDTRAPPER_01", ["Pos"] = vector3(1349.1, -6842.81, 49.47 -1), ["Heading"] = 32.28 }, -- Trapper Vendor Guarma
 }
